@@ -14,5 +14,11 @@ public interface EmployeeRepository {
 	void updateEmployee(Employee employee);
 
 	Employee findLastHired();
+	
+	void deleteEmployee (int id);
+
+	void updateAllEmployees(List<Employee> employees);
+
+	void deleteAllEmployee();
 
 }
